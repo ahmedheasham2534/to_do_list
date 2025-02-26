@@ -20,7 +20,7 @@ body{
     top: 70px;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: fantasy;
+    font-family: sans-serif;
     color: var(--main-color);
     z-index: 100;
 }
@@ -61,6 +61,7 @@ body{
     border: none;
     border-radius: 10px;
     z-index: 100;
+    font-weight: bold;
 }
 #items{
     position: absolute;
@@ -68,7 +69,6 @@ body{
     left: 31%;
     z-index: 100;
 }
-
 
 @media screen and (max-width: 600px) {
     .container img {
@@ -78,14 +78,14 @@ body{
         top: 0;
     }
     .container h1 {
-        font-size: 30px;
-        top: 50px;
-        left: 35%;
+        font-size: 28px;
+        top: 40px;
         font-size: 38px;
+        left: 45%;
     }
     .main {
         top: 150px; 
-        left: 38%;
+        left: 44%;
     }
     .main input {
         width: 250px;
