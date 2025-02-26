@@ -41,6 +41,6 @@ function addTask(){
     }
     
     if (window.matchMedia("(max-width: 600px)").matches){
-        list.style.width = '250px'
+        list.style.width = '290px'
     }
 }
